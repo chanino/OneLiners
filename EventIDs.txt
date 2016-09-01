@@ -1,0 +1,73 @@
+From: Intrusion Detection Using Indicators of Compromise Based on Best Practices and Windows Event Logs 
+Link: http://www.thinkmind.org/index.php?view=article&articleid=icimp_2016_2_20_30032
+
+Event ID
+4774 An account was mapped for logon.
+4776 The domain controller attempted to validate the credentials for an account.
+ 
+Event ID Event Summary 
+4783 A basic application group was created.
+4785 A member was added to a basic application group.
+4741 A computer account was created.
+4742 A computer account was changed.
+4727 A security-disabled global group was created. 
+4728 A member was added to a security-disabled global group.
+4720 A user account was created.
+4722 A user account was enabled.
+4724 An attempt was made to reset an account’s password.
+4738 A user account was changed. 
+4740 A user account was locked out.
+
+Event ID Event Summary
+4688 A new process has been created.
+4689 A process has exited.
+
+Event ID Event Summary
+4634 An account was logged off.
+4647 User initiated logoff.
+4624 An account was successfully logged on.
+4625 An account failed to log on.
+4649 A replay attack was detected. May be a harmless false positive due to misconfiguration error.
+4778 A session was reconnected to a Window Station.
+4801 The workstation was unlocked.
+4964 Special groups have been assigned to a new logon.
+
+Event ID Event Summary
+4665 An attempt was made to create an application client context.
+4668 An application was initialized.
+4664 An attempt was made to create a hard link.
+4985 The state of a transaction has changed.
+5051 A file was virtualized.
+4691 Indirect access to an object was requested.
+4698 A scheduled task was created.
+4700 A scheduled task was enabled.
+4702 A scheduled task was updated.
+4657 A registry value was modified.
+4660 An object was deleted.
+
+Event ID Event Summary
+4719 System audit policy was changed.
+4905 An attempt was made to unregister a security event source.
+4907 Auditing settings on object were changed.
+4912 Per User Audit Policy was changed.
+4704 A user right was assigned.
+4946 A change has been made to Windows Firewall exception list. A rule was added.
+4947 A change has been made to Windows Firewall exception list. A rule was modified.
+4948 A change has been made to Windows Firewall exception list. A rule was deleted.
+4949 Windows Firewall settings were restored to the default values.
+4950 A Windows Firewall setting has changed.
+4670 Permissions on an object were changed.
+
+Event ID Event Summary
+4672 Special privileges assigned to new logon.
+4673 A privileged service was called.
+
+Event ID Event Summary
+5025 The Windows Firewall Service has been stopped.
+5034 The Windows Firewall Driver has been stopped.
+4697 Attempt to install a service
+4618 A monitored security event pattern has occurred
+
+Other Event ID Lists:
+Microsoft List: https://technet.microsoft.com/windows-server-docs/identity/ad-ds/plan/appendix-l--events-to-monitor
+NSA List: https://www.iad.gov/iad/customcf/openAttachment.cfm?FilePath=/iad/library/ia-guidance/security-configuration/applications/assets/public/upload/Spotting-the-Adversary-with-Windows-Event-Log-Monitoring.pdf&WpKes=aF6woL7fQp3dJirKPLfET4N4a2rmz2ef7etAhJ
